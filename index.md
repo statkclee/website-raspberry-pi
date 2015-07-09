@@ -43,3 +43,8 @@ title: xwMOOC 라즈베리 파이
 	1.  [색깔](processing/04-color.html)
 	1.  [객체](processing/05-objects.html)
 	1.  **[참고 문헌](http://py.processing.org/reference/)**: 프로세싱 언어 파이썬 모드에 대한 상세 참고문서
+-  [파이썬 입문-거북이(turtle)](turtles/index-kr.html)
+	1.  [다각형(Polygon) 그리기](turtles/01-poly-kr.html)
+	1.  [함수 만들기](turtles/02-func-kr.html)
+	1.  [공룡 따라잡기](turtles/03-chase-kr.html)
+        - [소프트웨어 카펜트리 파이썬 터틀 원문](http://swcarpentry.github.io/python-novice-turtles/)	
