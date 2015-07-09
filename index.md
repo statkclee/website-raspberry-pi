@@ -16,7 +16,7 @@ title: xwMOOC 라즈베리 파이
 
 > ## 선수 과목
 >
-> [컴퓨터 과학 언플러그드](http://www.xwmooc.net/csunplugged/book.html)  
+> [컴퓨터 과학 언플러그드](http://www.xwmooc.net/computationalthinking/unplugged/index.html)  
 > [러플](http://rur-ple.xwmooc.net/)  
 > [파이썬 거북이](http://statkclee.github.io/python-novice-turtles/index-kr.html)  
 
@@ -30,5 +30,10 @@ title: xwMOOC 라즈베리 파이
     1.  [마인크래프트 설치](00-install.html)
     1.  [파이썬 프로그래밍](01-python.html)
     1.  [두더지 잡기 게임 만들기 (개발중)](02-whac-a-block.html)
-
+-  [네트워킹](networking/index.html)
+	1.  [네트워크를 통해 메시지 전송](networking/01-sending-messages.html)
+	    - 사전에 동영상을 학습하고 수업에 참석한다.
+	1.  [네트워크로 하드웨어 제어](networking/02-controlling-hardware.html)
+	1.  [동적 호스트 구성 프로토콜](networking/03-dhcp.html)
+	1.  [도메인 네임 시스템](networking/04-dns.html)
 
