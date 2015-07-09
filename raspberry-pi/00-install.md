@@ -2,9 +2,9 @@
 layout: page
 title: 컴퓨터적 사고 함양을 위한 라즈베리 파이
 subtitle: 라즈베리파이 시작하기
-minutes: 10
 ---
-> ## 학습 목표
+
+> ## 학습 목표 {.objectives}
 >
 > *   라즈베리 파이 부품을 확인한다.
 > *   유무선 인터넷과 소리를 설정한다.
@@ -20,7 +20,7 @@ minutes: 10
 
 ### 필수 아이템
 
-![라즈베리 파이](fig/Raspberry-Pis.jpg)
+![라즈베리 파이](../img/learn-raspberry-pi/Raspberry-Pis.jpg)
 
 - 라즈베리파이 ([Model B](http://www.raspberrypi.org/product/model-b/), [Model B+](http://www.raspberrypi.org/product/model-b-plus/), [라즈베리 파이2](https://www.raspberrypi.org/products/raspberry-pi-2-model-b/))
 - SD 카드 (SD Card)

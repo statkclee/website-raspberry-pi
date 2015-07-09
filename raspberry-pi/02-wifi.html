@@ -29,14 +29,18 @@
           <!--           <a href="index.html"><h1 class="title">컴퓨터적 사고 함양을 위한 라즈베리 파이</h1></a> -->
           <h1 class="title">컴퓨터적 사고 함양을 위한 라즈베리 파이</h1>
           <h2 class="subtitle">무선 인터넷 와이파이 사용하기</h2>
-          <blockquote>
-<h2>학습 목표</h2>
+          <section class="objectives panel panel-warning">
+<div class="panel-heading">
+<h2><span class="glyphicon glyphicon-certificate"></span>학습 목표</h2>
+</div>
+<div class="panel-body">
 <ul>
 <li>무선 인터넷 와이파이를 설정한다.</li>
 <li>GUI를 사용해서 무선 인터넷을 설정한다.</li>
 <li>명령-라인(Command-Line) 명령어를 사용해서 무선 인터넷을 설정한다.</li>
 </ul>
-</blockquote>
+</div>
+</section>
 <h2 id="무선-인터넷-와이파이wifi">무선 인터넷 와이파이(WiFi)</h2>
 <p>라즈베리 파이에 무선 인터넷 와이파이(WiFi)를 사용하도록 준비하는 방법은 매우 다양한다. 여기서 세가지 와이파이 환경설정하는 방법만 다룬다.</p>
 <h3 id="gui-응용프로그램을-사용한-방법">GUI 응용프로그램을 사용한 방법</h3>
@@ -51,22 +55,22 @@
 </aside>
 <p>2012-10-28일 뒤에 출시된 라즈비안에는 와이파이 환경설정 유틸리티(WiFi configuration utility)가 포함되어 있다. 바탕화면(Desktop)에 단축아이콘을 찾는다.만약 명령-라인 도구나 이더넷으로 로그인했다면, 수동으로 <strong>/etc/network/interfaces</strong>을 편집하는 방법을 참고한다.</p>
 <div class="figure">
-<img src="fig/learn_raspberry_pi_wifi_config_icon.png" alt="와이파이 환경설정 아이콘" /><p class="caption">와이파이 환경설정 아이콘</p>
+<img src="../img/learn-raspberry-pi/learn_raspberry_pi_wifi_config_icon.png" alt="와이파이 환경설정 아이콘" /><p class="caption">와이파이 환경설정 아이콘</p>
 </div>
 <h4 id="단계">1 단계</h4>
 <p>와이파이 환경설정(WiFi Config) 아이콘을 두번 클릭하면, 다음 윈도우를 볼 수 있다.</p>
 <div class="figure">
-<img src="fig/learn_raspberry_pi_wpa_gui_1.png" alt="와이파이 설정 1단계" /><p class="caption">와이파이 설정 1단계</p>
+<img src="../img/learn-raspberry-pi/learn_raspberry_pi_wpa_gui_1.png" alt="와이파이 설정 1단계" /><p class="caption">와이파이 설정 1단계</p>
 </div>
 <h4 id="단계-1">2 단계</h4>
 <p>상기 그림 윈도우에서 스캔(<code>Scan</code>) 버튼을 클릭하면 두번째 윈도우가 열린다. 목록에서 무선 접근지점(wireless access point)를 찾아서 두번 클릭한다. 그러면 또다른 윈도우가 열린다.</p>
 <div class="figure">
-<img src="fig/learn_raspberry_pi_wpa_gui2.png" alt="와이파이 설정 2단계" /><p class="caption">와이파이 설정 2단계</p>
+<img src="../img/learn-raspberry-pi/learn_raspberry_pi_wpa_gui2.png" alt="와이파이 설정 2단계" /><p class="caption">와이파이 설정 2단계</p>
 </div>
 <h4 id="단계-2">3 단계</h4>
 <p>PSK 필드에 비밀번호를 입력하고 추가(<code>Add</code>)를 클릭한다. 첫번째 윈도우를 볼 때, 연결정보가 바로 사용하도록 설정된 것이 보여야 한다. 하단 버튼을 사용해서 연결(<code>Connect</code>) 혹은 연결 끊기(<code>Disconnect</code>)를 수행한다. 라즈베리 파이 IP 주소가 윈도우 하단에 보이는데 주목한다.</p>
 <div class="figure">
-<img src="fig/learn_raspberry_pi_wpa_gui5.png" alt="와이파이 설정 3단계" /><p class="caption">와이파이 설정 3단계</p>
+<img src="../img/learn-raspberry-pi/learn_raspberry_pi_wpa_gui5.png" alt="와이파이 설정 3단계" /><p class="caption">와이파이 설정 3단계</p>
 </div>
 <h3 id="명령-라인command-line-방식을-사용한-방법">명령-라인(Command-Line) 방식을 사용한 방법</h3>
 <p>출처: <a href="https://www.raspberrypi.org/documentation/configuration/wireless/wireless-cli.md">adafruit</a> 내용을 한글로 번역한 것으로 저작권에 문제가 있다면 바로 삭제하겠습니다.</p>
@@ -85,7 +89,7 @@
 <p>LXTerminal 아이콘을 클릭해서 터미널을 연다. 그리고 터미널 명령 프롬프트에 다음 명령어를 타이핑한다:</p>
 <pre class="input"><code>sudo nano /etc/network/interfaces</code></pre>
 <div class="figure">
-<img src="fig/learn_raspberry_pi_occ_1.png" alt="나노 편집기 실행" /><p class="caption">나노 편집기 실행</p>
+<img src="../img/learn-raspberry-pi/learn_raspberry_pi_occ_1.png" alt="나노 편집기 실행" /><p class="caption">나노 편집기 실행</p>
 </div>
 <pre class="input"><code>auto lo
  
@@ -121,18 +125,18 @@ iface default inet dhcp</code></pre>
 <h4 id="단계-5">3 단계</h4>
 <p>나노 편집기로 와이파이 환경설정 파일을 열고 변경이 필요한 부분을 수정한다.</p>
 <div class="figure">
-<img src="fig/learn_raspberry_pi_occ_2.png" alt="와이파이 환경설정 파일 편집 열기" /><p class="caption">와이파이 환경설정 파일 편집 열기</p>
+<img src="../img/learn-raspberry-pi/learn_raspberry_pi_occ_2.png" alt="와이파이 환경설정 파일 편집 열기" /><p class="caption">와이파이 환경설정 파일 편집 열기</p>
 </div>
 <p>변경해야 하는 두 곳은 끝에서 두줄이다. 파일을 변경하면 다음과 같이 보인다.</p>
 <div class="figure">
-<img src="fig/learn_raspberry_pi_occ_3.png" alt="와이파이 환경설정 파일 편집 진행" /><p class="caption">와이파이 환경설정 파일 편집 진행</p>
+<img src="../img/learn-raspberry-pi/learn_raspberry_pi_occ_3.png" alt="와이파이 환경설정 파일 편집 진행" /><p class="caption">와이파이 환경설정 파일 편집 진행</p>
 </div>
 <p>물론, <strong>본인</strong> 네트워크 SSID와 비밀번호를 적어 넣어야 한다. 무선 네트워크 이름과 비밀번호는 쌍따옴표로 감싸야만 한다.</p>
 <p>이런 유형의 텍스트 편집기에서는 마우스를 사용할 수 없다. 대신에, 커서키를 사용해서 파일내부 여기 저기를 돌아다닌다.</p>
 <h4 id="단계-6">4 단계</h4>
 <p>편집이 완료되면 <code>Ctrl + x</code>를 눌러 빠져나온다. 빠져나올 때 파일에 변경된 부분을 저장할 것인지 묻는다.</p>
 <div class="figure">
-<img src="fig/learn_raspberry_pi_occ_4.png" alt="와이파이 환경설정 파일 편집 완료" /><p class="caption">와이파이 환경설정 파일 편집 완료</p>
+<img src="../img/learn-raspberry-pi/learn_raspberry_pi_occ_4.png" alt="와이파이 환경설정 파일 편집 완료" /><p class="caption">와이파이 환경설정 파일 편집 완료</p>
 </div>
 <p><code>Y</code>를 누르고 나서 <code>Return</code>을 누르면 동일한 파일에 변경사항이 저장된다.</p>
 <h4 id="단계-7">5 단계</h4>

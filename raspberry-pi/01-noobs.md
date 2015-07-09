@@ -2,9 +2,9 @@
 layout: page
 title: 컴퓨터적 사고 함양을 위한 라즈베리 파이
 subtitle: NOOBS 운영체제 관리자
-minutes: 10
 ---
-> ## 학습 목표
+
+> ## 학습 목표 {.objectives}
 >
 > *   라즈베리 파이 운영체제 관리자 : NOOBS
 
@@ -12,7 +12,7 @@ minutes: 10
 
 **NOOBS(New Out Of the Box Software)** - 라즈베리 파이를 위한 쉬운 운영체제 설치 관리자다.
 
-![NOOBS](fig/noobs.png)
+![NOOBS](../img/learn-raspberry-pi/noobs.png)
 
 ## NOOBS 얻는 방법
 
