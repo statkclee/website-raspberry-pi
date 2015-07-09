@@ -1,7 +1,7 @@
 ---
 layout: page
 title: 컴퓨터 네트워킹(Networking)
-subtitle: 사물 인터넷(Internet of Things, IoT): 컴퓨터가 다른 컴퓨터를 제어하는 방법
+subtitle: 사물 인터넷(Internet of Things, IoT) - 컴퓨터가 다른 컴퓨터를 제어하는 방법
 ---
 
 > ## 학습 목표 {.objectives}
