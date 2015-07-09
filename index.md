@@ -27,13 +27,19 @@ title: xwMOOC 라즈베리 파이
     1. [NOOBS 운영체제 관리자](raspberry-pi/01-noobs.html)
     1. [무선 인터넷 와이파이 사용하기](raspberry-pi/02-wifi.html)
 -  [마인크래프트](minecraft/index.html)
-    1.  [마인크래프트 설치](00-install.html)
-    1.  [파이썬 프로그래밍](01-python.html)
-    1.  [두더지 잡기 게임 만들기 (개발중)](02-whac-a-block.html)
+    1.  [마인크래프트 설치](minecraft/00-install.html)
+    1.  [파이썬 프로그래밍](minecraft/01-python.html)
+    1.  [두더지 잡기 게임 만들기 (개발중)](minecraft/02-whac-a-block.html)
 -  [네트워킹](networking/index.html)
 	1.  [네트워크를 통해 메시지 전송](networking/01-sending-messages.html)
 	    - 사전에 동영상을 학습하고 수업에 참석한다.
 	1.  [네트워크로 하드웨어 제어](networking/02-controlling-hardware.html)
 	1.  [동적 호스트 구성 프로토콜](networking/03-dhcp.html)
 	1.  [도메인 네임 시스템](networking/04-dns.html)
-
+-  [그래픽 프로그래밍(Processing)](processing/index.html)
+	1.  [시작하기](processing/01-getting-started.html)
+	1.  [프로세싱 개요](processing/02-overview.html)
+	1.  [좌표 시스템과 형상](processing/03-coordinate.html)
+	1.  [색깔](processing/04-color.html)
+	1.  [객체](processing/05-objects.html)
+	1.  **[참고 문헌](http://py.processing.org/reference/)**: 프로세싱 언어 파이썬 모드에 대한 상세 참고문서
