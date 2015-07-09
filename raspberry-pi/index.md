@@ -12,7 +12,6 @@ title: 컴퓨터적 사고 함양을 위한 라즈베리 파이
 
 ![라즈베리 파이](../img/learn-raspberry-pi/cover.png)
 
-
 ## 학습주제
 		
 1.  [라즈베리파이 시작하기](00-install.html)

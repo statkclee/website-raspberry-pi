@@ -14,6 +14,11 @@ title: xwMOOC 라즈베리 파이
 
 라즈베리파이 재단 공식 웹사이트 [ TEACHERS' GUIDE TO USING RASPBERRY PI IN THE CLASSROOM](https://www.raspberrypi.org/guides/teachers/) 기반으로 학습을 시작한다.
 
+> ## 선수 과목
+>
+> [컴퓨터 과학 언플러그드](http://www.xwmooc.net/csunplugged/book.html)  
+> [러플](http://rur-ple.xwmooc.net/)  
+> [파이썬 거북이](http://statkclee.github.io/python-novice-turtles/index-kr.html)  
 
 ### 콘텐츠 목차 
 
@@ -21,6 +26,9 @@ title: xwMOOC 라즈베리 파이
     1. [라즈베리파이 시작하기](raspberry-pi/00-install.html)
     1. [NOOBS 운영체제 관리자](raspberry-pi/01-noobs.html)
     1. [무선 인터넷 와이파이 사용하기](raspberry-pi/02-wifi.html)
-
+-  [마인크래프트](minecraft/index.html)
+    1.  [마인크래프트 설치](00-install.html)
+    1.  [파이썬 프로그래밍](01-python.html)
+    1.  [두더지 잡기 게임 만들기 (개발중)](02-whac-a-block.html)
 
 
